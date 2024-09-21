@@ -1,0 +1,1286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F31AD02327A096CB002FB0A6 /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = F31AD02227A096CB002FB0A6 /* Game.swift */; };
+		F33F221A271C83DB000159B5 /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F33F2219271C83DB000159B5 /* Settings.swift */; };
+		F348418627223BC80015546B /* firstTimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F348418527223BC80015546B /* firstTimeView.swift */; };
+		F373522227A24ACD00A31991 /* TicTacToe.swift in Sources */ = {isa = PBXBuildFile; fileRef = F373522127A24ACC00A31991 /* TicTacToe.swift */; };
+		F373522427A2F68A00A31991 /* Tetris.swift in Sources */ = {isa = PBXBuildFile; fileRef = F373522327A2F68A00A31991 /* Tetris.swift */; };
+		F38DE236272309240072A742 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F38DE235272309240072A742 /* Assets.xcassets */; };
+		F38DE23C272309240072A742 /* ClassTime ERHS WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = F38DE23B272309240072A742 /* ClassTime ERHS WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F38DE241272309240072A742 /* ClassTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DE240272309240072A742 /* ClassTimeApp.swift */; };
+		F38DE243272309240072A742 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DE242272309240072A742 /* ContentView.swift */; };
+		F38DE245272309240072A742 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DE244272309240072A742 /* NotificationController.swift */; };
+		F38DE247272309240072A742 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DE246272309240072A742 /* NotificationView.swift */; };
+		F38DE249272309240072A742 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DE248272309240072A742 /* ComplicationController.swift */; };
+		F38DE24B272309240072A742 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F38DE24A272309240072A742 /* Assets.xcassets */; };
+		F38DE24E272309240072A742 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F38DE24D272309240072A742 /* Preview Assets.xcassets */; };
+		F38DE25A272309240072A742 /* ClassTime_ERHSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DE259272309240072A742 /* ClassTime_ERHSTests.swift */; };
+		F38DE264272309240072A742 /* ClassTime_ERHSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DE263272309240072A742 /* ClassTime_ERHSUITests.swift */; };
+		F38DE266272309240072A742 /* ClassTime_ERHSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F38DE265272309240072A742 /* ClassTime_ERHSUITestsLaunchTests.swift */; };
+		F38DE269272309240072A742 /* ClassTime.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = F38DE233272309230072A742 /* ClassTime.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		F3C0723C271C8A0800DC5F6D /* eventsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C0723B271C8A0800DC5F6D /* eventsView.swift */; };
+		F3C07240271C919D00DC5F6D /* eventsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3C0723F271C919D00DC5F6D /* eventsList.swift */; };
+		F3CA2A752710D00A0088B2ED /* ClassTimeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CA2A742710D00A0088B2ED /* ClassTimeApp.swift */; };
+		F3CA2A772710D00A0088B2ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CA2A762710D00A0088B2ED /* ContentView.swift */; };
+		F3CA2A792710D00B0088B2ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3CA2A782710D00B0088B2ED /* Assets.xcassets */; };
+		F3CA2A7C2710D00B0088B2ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F3CA2A7B2710D00B0088B2ED /* Preview Assets.xcassets */; };
+		F3CA2A862710D00B0088B2ED /* ClassTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CA2A852710D00B0088B2ED /* ClassTimeTests.swift */; };
+		F3CA2A902710D00B0088B2ED /* ClassTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CA2A8F2710D00B0088B2ED /* ClassTimeUITests.swift */; };
+		F3CA2A922710D00B0088B2ED /* ClassTimeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3CA2A912710D00B0088B2ED /* ClassTimeUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F38DE23D272309240072A742 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3CA2A692710D00A0088B2ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F38DE23A272309240072A742;
+			remoteInfo = "ClassTime ERHS WatchKit Extension";
+		};
+		F38DE256272309240072A742 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3CA2A692710D00A0088B2ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F38DE23A272309240072A742;
+			remoteInfo = "ClassTime ERHS WatchKit Extension";
+		};
+		F38DE260272309240072A742 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3CA2A692710D00A0088B2ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F38DE232272309230072A742;
+			remoteInfo = "ClassTime ERHS";
+		};
+		F38DE267272309240072A742 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3CA2A692710D00A0088B2ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F38DE232272309230072A742;
+			remoteInfo = "ClassTime ERHS";
+		};
+		F3CA2A822710D00B0088B2ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3CA2A692710D00A0088B2ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3CA2A702710D00A0088B2ED;
+			remoteInfo = ClassTime;
+		};
+		F3CA2A8C2710D00B0088B2ED /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F3CA2A692710D00A0088B2ED /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F3CA2A702710D00A0088B2ED;
+			remoteInfo = ClassTime;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F3484181271F70E50015546B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38DE26A272309250072A742 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				F38DE269272309240072A742 /* ClassTime.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38DE26D272309250072A742 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				F38DE23C272309240072A742 /* ClassTime ERHS WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F31AD02227A096CB002FB0A6 /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		F33F2219271C83DB000159B5 /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
+		F3425CC3272CBA73003D13C0 /* ClassTime-ERHSTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "ClassTime-ERHSTests-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F3484170271F70E40015546B /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		F34841822720C0010015546B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F348418527223BC80015546B /* firstTimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = firstTimeView.swift; sourceTree = "<group>"; };
+		F373522127A24ACC00A31991 /* TicTacToe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicTacToe.swift; sourceTree = "<group>"; };
+		F373522327A2F68A00A31991 /* Tetris.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tetris.swift; sourceTree = "<group>"; };
+		F38DE233272309230072A742 /* ClassTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClassTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F38DE235272309240072A742 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F38DE23B272309240072A742 /* ClassTime ERHS WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "ClassTime ERHS WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F38DE240272309240072A742 /* ClassTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassTimeApp.swift; sourceTree = "<group>"; };
+		F38DE242272309240072A742 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F38DE244272309240072A742 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		F38DE246272309240072A742 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		F38DE248272309240072A742 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		F38DE24A272309240072A742 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F38DE24D272309240072A742 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F38DE24F272309240072A742 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F38DE250272309240072A742 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		F38DE255272309240072A742 /* ClassTime ERHSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ClassTime ERHSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F38DE259272309240072A742 /* ClassTime_ERHSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassTime_ERHSTests.swift; sourceTree = "<group>"; };
+		F38DE25F272309240072A742 /* ClassTime ERHSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ClassTime ERHSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F38DE263272309240072A742 /* ClassTime_ERHSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassTime_ERHSUITests.swift; sourceTree = "<group>"; };
+		F38DE265272309240072A742 /* ClassTime_ERHSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassTime_ERHSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F3C0723B271C8A0800DC5F6D /* eventsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventsView.swift; sourceTree = "<group>"; };
+		F3C0723F271C919D00DC5F6D /* eventsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventsList.swift; sourceTree = "<group>"; };
+		F3CA2A712710D00A0088B2ED /* Class Time ERHS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Class Time ERHS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3CA2A742710D00A0088B2ED /* ClassTimeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassTimeApp.swift; sourceTree = "<group>"; };
+		F3CA2A762710D00A0088B2ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; usesTabs = 0; };
+		F3CA2A782710D00B0088B2ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F3CA2A7B2710D00B0088B2ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F3CA2A812710D00B0088B2ED /* ClassTimeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClassTimeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3CA2A852710D00B0088B2ED /* ClassTimeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassTimeTests.swift; sourceTree = "<group>"; };
+		F3CA2A8B2710D00B0088B2ED /* ClassTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClassTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F3CA2A8F2710D00B0088B2ED /* ClassTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassTimeUITests.swift; sourceTree = "<group>"; };
+		F3CA2A912710D00B0088B2ED /* ClassTimeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassTimeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F38DE238272309240072A742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38DE252272309240072A742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38DE25C272309240072A742 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3CA2A6E2710D00A0088B2ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3CA2A7E2710D00B0088B2ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3CA2A882710D00B0088B2ED /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F348416D271F70E40015546B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F3484170271F70E40015546B /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F38DE234272309230072A742 /* ClassTime ERHS */ = {
+			isa = PBXGroup;
+			children = (
+				F38DE235272309240072A742 /* Assets.xcassets */,
+			);
+			path = "ClassTime ERHS";
+			sourceTree = "<group>";
+		};
+		F38DE23F272309240072A742 /* ClassTime ERHS WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F38DE240272309240072A742 /* ClassTimeApp.swift */,
+				F38DE242272309240072A742 /* ContentView.swift */,
+				F38DE244272309240072A742 /* NotificationController.swift */,
+				F38DE246272309240072A742 /* NotificationView.swift */,
+				F38DE248272309240072A742 /* ComplicationController.swift */,
+				F38DE24A272309240072A742 /* Assets.xcassets */,
+				F38DE24F272309240072A742 /* Info.plist */,
+				F38DE250272309240072A742 /* PushNotificationPayload.apns */,
+				F38DE24C272309240072A742 /* Preview Content */,
+			);
+			path = "ClassTime ERHS WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		F38DE24C272309240072A742 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F38DE24D272309240072A742 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F38DE258272309240072A742 /* ClassTime ERHSTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3425CC3272CBA73003D13C0 /* ClassTime-ERHSTests-Info.plist */,
+				F38DE259272309240072A742 /* ClassTime_ERHSTests.swift */,
+			);
+			path = "ClassTime ERHSTests";
+			sourceTree = "<group>";
+		};
+		F38DE262272309240072A742 /* ClassTime ERHSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F38DE263272309240072A742 /* ClassTime_ERHSUITests.swift */,
+				F38DE265272309240072A742 /* ClassTime_ERHSUITestsLaunchTests.swift */,
+			);
+			path = "ClassTime ERHSUITests";
+			sourceTree = "<group>";
+		};
+		F3939D012C9F2F5000C6BF8D /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				F373522327A2F68A00A31991 /* Tetris.swift */,
+				F373522127A24ACC00A31991 /* TicTacToe.swift */,
+				F31AD02227A096CB002FB0A6 /* Game.swift */,
+			);
+			path = Games;
+			sourceTree = "<group>";
+		};
+		F3939D022C9F2F5C00C6BF8D /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F3CA2A762710D00A0088B2ED /* ContentView.swift */,
+				F348418527223BC80015546B /* firstTimeView.swift */,
+				F33F2219271C83DB000159B5 /* Settings.swift */,
+				F3C0723B271C8A0800DC5F6D /* eventsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F3939D032C9F2F6700C6BF8D /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				F3C0723F271C919D00DC5F6D /* eventsList.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		F3CA2A682710D00A0088B2ED = {
+			isa = PBXGroup;
+			children = (
+				F3CA2A732710D00A0088B2ED /* ClassTime */,
+				F3CA2A842710D00B0088B2ED /* ClassTimeTests */,
+				F3CA2A8E2710D00B0088B2ED /* ClassTimeUITests */,
+				F38DE234272309230072A742 /* ClassTime ERHS */,
+				F38DE23F272309240072A742 /* ClassTime ERHS WatchKit Extension */,
+				F38DE258272309240072A742 /* ClassTime ERHSTests */,
+				F38DE262272309240072A742 /* ClassTime ERHSUITests */,
+				F348416D271F70E40015546B /* Frameworks */,
+				F3CA2A722710D00A0088B2ED /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F3CA2A722710D00A0088B2ED /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F3CA2A712710D00A0088B2ED /* Class Time ERHS.app */,
+				F3CA2A812710D00B0088B2ED /* ClassTimeTests.xctest */,
+				F3CA2A8B2710D00B0088B2ED /* ClassTimeUITests.xctest */,
+				F38DE233272309230072A742 /* ClassTime.app */,
+				F38DE23B272309240072A742 /* ClassTime ERHS WatchKit Extension.appex */,
+				F38DE255272309240072A742 /* ClassTime ERHSTests.xctest */,
+				F38DE25F272309240072A742 /* ClassTime ERHSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F3CA2A732710D00A0088B2ED /* ClassTime */ = {
+			isa = PBXGroup;
+			children = (
+				F3939D032C9F2F6700C6BF8D /* Helpers */,
+				F3939D022C9F2F5C00C6BF8D /* Views */,
+				F3939D012C9F2F5000C6BF8D /* Games */,
+				F34841822720C0010015546B /* Info.plist */,
+				F3CA2A742710D00A0088B2ED /* ClassTimeApp.swift */,
+				F3CA2A782710D00B0088B2ED /* Assets.xcassets */,
+				F3CA2A7A2710D00B0088B2ED /* Preview Content */,
+			);
+			path = ClassTime;
+			sourceTree = "<group>";
+		};
+		F3CA2A7A2710D00B0088B2ED /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F3CA2A7B2710D00B0088B2ED /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F3CA2A842710D00B0088B2ED /* ClassTimeTests */ = {
+			isa = PBXGroup;
+			children = (
+				F3CA2A852710D00B0088B2ED /* ClassTimeTests.swift */,
+			);
+			path = ClassTimeTests;
+			sourceTree = "<group>";
+		};
+		F3CA2A8E2710D00B0088B2ED /* ClassTimeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F3CA2A8F2710D00B0088B2ED /* ClassTimeUITests.swift */,
+				F3CA2A912710D00B0088B2ED /* ClassTimeUITestsLaunchTests.swift */,
+			);
+			path = ClassTimeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F38DE232272309230072A742 /* ClassTime ERHS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F38DE275272309250072A742 /* Build configuration list for PBXNativeTarget "ClassTime ERHS" */;
+			buildPhases = (
+				F38DE231272309230072A742 /* Resources */,
+				F38DE26D272309250072A742 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F38DE23E272309240072A742 /* PBXTargetDependency */,
+			);
+			name = "ClassTime ERHS";
+			productName = "ClassTime ERHS";
+			productReference = F38DE233272309230072A742 /* ClassTime.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		F38DE23A272309240072A742 /* ClassTime ERHS WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F38DE274272309250072A742 /* Build configuration list for PBXNativeTarget "ClassTime ERHS WatchKit Extension" */;
+			buildPhases = (
+				F38DE237272309240072A742 /* Sources */,
+				F38DE238272309240072A742 /* Frameworks */,
+				F38DE239272309240072A742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ClassTime ERHS WatchKit Extension";
+			productName = "ClassTime ERHS WatchKit Extension";
+			productReference = F38DE23B272309240072A742 /* ClassTime ERHS WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		F38DE254272309240072A742 /* ClassTime ERHSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F38DE276272309250072A742 /* Build configuration list for PBXNativeTarget "ClassTime ERHSTests" */;
+			buildPhases = (
+				F38DE251272309240072A742 /* Sources */,
+				F38DE252272309240072A742 /* Frameworks */,
+				F38DE253272309240072A742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F38DE257272309240072A742 /* PBXTargetDependency */,
+			);
+			name = "ClassTime ERHSTests";
+			productName = "ClassTime ERHSTests";
+			productReference = F38DE255272309240072A742 /* ClassTime ERHSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F38DE25E272309240072A742 /* ClassTime ERHSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F38DE277272309250072A742 /* Build configuration list for PBXNativeTarget "ClassTime ERHSUITests" */;
+			buildPhases = (
+				F38DE25B272309240072A742 /* Sources */,
+				F38DE25C272309240072A742 /* Frameworks */,
+				F38DE25D272309240072A742 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F38DE261272309240072A742 /* PBXTargetDependency */,
+			);
+			name = "ClassTime ERHSUITests";
+			productName = "ClassTime ERHSUITests";
+			productReference = F38DE25F272309240072A742 /* ClassTime ERHSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		F3CA2A702710D00A0088B2ED /* ClassTime */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3CA2A952710D00B0088B2ED /* Build configuration list for PBXNativeTarget "ClassTime" */;
+			buildPhases = (
+				F3CA2A6D2710D00A0088B2ED /* Sources */,
+				F3CA2A6E2710D00A0088B2ED /* Frameworks */,
+				F3CA2A6F2710D00A0088B2ED /* Resources */,
+				F3484181271F70E50015546B /* Embed App Extensions */,
+				F38DE26A272309250072A742 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F38DE268272309240072A742 /* PBXTargetDependency */,
+			);
+			name = ClassTime;
+			productName = ClassTime;
+			productReference = F3CA2A712710D00A0088B2ED /* Class Time ERHS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F3CA2A802710D00B0088B2ED /* ClassTimeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3CA2A982710D00B0088B2ED /* Build configuration list for PBXNativeTarget "ClassTimeTests" */;
+			buildPhases = (
+				F3CA2A7D2710D00B0088B2ED /* Sources */,
+				F3CA2A7E2710D00B0088B2ED /* Frameworks */,
+				F3CA2A7F2710D00B0088B2ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3CA2A832710D00B0088B2ED /* PBXTargetDependency */,
+			);
+			name = ClassTimeTests;
+			productName = ClassTimeTests;
+			productReference = F3CA2A812710D00B0088B2ED /* ClassTimeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F3CA2A8A2710D00B0088B2ED /* ClassTimeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F3CA2A9B2710D00B0088B2ED /* Build configuration list for PBXNativeTarget "ClassTimeUITests" */;
+			buildPhases = (
+				F3CA2A872710D00B0088B2ED /* Sources */,
+				F3CA2A882710D00B0088B2ED /* Frameworks */,
+				F3CA2A892710D00B0088B2ED /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F3CA2A8D2710D00B0088B2ED /* PBXTargetDependency */,
+			);
+			name = ClassTimeUITests;
+			productName = ClassTimeUITests;
+			productReference = F3CA2A8B2710D00B0088B2ED /* ClassTimeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F3CA2A692710D00A0088B2ED /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					F38DE232272309230072A742 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					F38DE23A272309240072A742 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					F38DE254272309240072A742 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = F38DE23A272309240072A742;
+					};
+					F38DE25E272309240072A742 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = F38DE232272309230072A742;
+					};
+					F3CA2A702710D00A0088B2ED = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					F3CA2A802710D00B0088B2ED = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = F3CA2A702710D00A0088B2ED;
+					};
+					F3CA2A8A2710D00B0088B2ED = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = F3CA2A702710D00A0088B2ED;
+					};
+				};
+			};
+			buildConfigurationList = F3CA2A6C2710D00A0088B2ED /* Build configuration list for PBXProject "ClassTime" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F3CA2A682710D00A0088B2ED;
+			productRefGroup = F3CA2A722710D00A0088B2ED /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F3CA2A702710D00A0088B2ED /* ClassTime */,
+				F3CA2A802710D00B0088B2ED /* ClassTimeTests */,
+				F3CA2A8A2710D00B0088B2ED /* ClassTimeUITests */,
+				F38DE232272309230072A742 /* ClassTime ERHS */,
+				F38DE23A272309240072A742 /* ClassTime ERHS WatchKit Extension */,
+				F38DE254272309240072A742 /* ClassTime ERHSTests */,
+				F38DE25E272309240072A742 /* ClassTime ERHSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F38DE231272309230072A742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38DE236272309240072A742 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38DE239272309240072A742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38DE24E272309240072A742 /* Preview Assets.xcassets in Resources */,
+				F38DE24B272309240072A742 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38DE253272309240072A742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38DE25D272309240072A742 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3CA2A6F2710D00A0088B2ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3CA2A7C2710D00B0088B2ED /* Preview Assets.xcassets in Resources */,
+				F3CA2A792710D00B0088B2ED /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3CA2A7F2710D00B0088B2ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3CA2A892710D00B0088B2ED /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F38DE237272309240072A742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38DE245272309240072A742 /* NotificationController.swift in Sources */,
+				F38DE243272309240072A742 /* ContentView.swift in Sources */,
+				F38DE249272309240072A742 /* ComplicationController.swift in Sources */,
+				F38DE241272309240072A742 /* ClassTimeApp.swift in Sources */,
+				F38DE247272309240072A742 /* NotificationView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38DE251272309240072A742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38DE25A272309240072A742 /* ClassTime_ERHSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F38DE25B272309240072A742 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F38DE266272309240072A742 /* ClassTime_ERHSUITestsLaunchTests.swift in Sources */,
+				F38DE264272309240072A742 /* ClassTime_ERHSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3CA2A6D2710D00A0088B2ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3C0723C271C8A0800DC5F6D /* eventsView.swift in Sources */,
+				F373522227A24ACD00A31991 /* TicTacToe.swift in Sources */,
+				F373522427A2F68A00A31991 /* Tetris.swift in Sources */,
+				F33F221A271C83DB000159B5 /* Settings.swift in Sources */,
+				F348418627223BC80015546B /* firstTimeView.swift in Sources */,
+				F3C07240271C919D00DC5F6D /* eventsList.swift in Sources */,
+				F31AD02327A096CB002FB0A6 /* Game.swift in Sources */,
+				F3CA2A772710D00A0088B2ED /* ContentView.swift in Sources */,
+				F3CA2A752710D00A0088B2ED /* ClassTimeApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3CA2A7D2710D00B0088B2ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3CA2A862710D00B0088B2ED /* ClassTimeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F3CA2A872710D00B0088B2ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F3CA2A922710D00B0088B2ED /* ClassTimeUITestsLaunchTests.swift in Sources */,
+				F3CA2A902710D00B0088B2ED /* ClassTimeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F38DE23E272309240072A742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F38DE23A272309240072A742 /* ClassTime ERHS WatchKit Extension */;
+			targetProxy = F38DE23D272309240072A742 /* PBXContainerItemProxy */;
+		};
+		F38DE257272309240072A742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F38DE23A272309240072A742 /* ClassTime ERHS WatchKit Extension */;
+			targetProxy = F38DE256272309240072A742 /* PBXContainerItemProxy */;
+		};
+		F38DE261272309240072A742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F38DE232272309230072A742 /* ClassTime ERHS */;
+			targetProxy = F38DE260272309240072A742 /* PBXContainerItemProxy */;
+		};
+		F38DE268272309240072A742 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F38DE232272309230072A742 /* ClassTime ERHS */;
+			targetProxy = F38DE267272309240072A742 /* PBXContainerItemProxy */;
+		};
+		F3CA2A832710D00B0088B2ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3CA2A702710D00A0088B2ED /* ClassTime */;
+			targetProxy = F3CA2A822710D00B0088B2ED /* PBXContainerItemProxy */;
+		};
+		F3CA2A8D2710D00B0088B2ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F3CA2A702710D00A0088B2ED /* ClassTime */;
+			targetProxy = F3CA2A8C2710D00B0088B2ED /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F38DE26B272309250072A742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D7H8GNLSKX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = ClassTime_ERHS_WatchKit_Extension;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "Greg-Wetterau.ClassTime";
+				MARKETING_VERSION = 1.4.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "Greg-Wetterau.ClassTime.watchkitapp";
+				PRODUCT_NAME = ClassTime;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		F38DE26C272309250072A742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D7H8GNLSKX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IBSC_MODULE = ClassTime_ERHS_WatchKit_Extension;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "Greg-Wetterau.ClassTime";
+				MARKETING_VERSION = 1.4.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "Greg-Wetterau.ClassTime.watchkitapp";
+				PRODUCT_NAME = ClassTime;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		F38DE26E272309250072A742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"ClassTime ERHS WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = D7H8GNLSKX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ClassTime ERHS WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ClassTime WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = ClassTime_ERHS_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.2.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "Greg-Wetterau.ClassTime.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		F38DE26F272309250072A742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"ClassTime ERHS WatchKit Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = D7H8GNLSKX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ClassTime ERHS WatchKit Extension/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "ClassTime WatchKit Extension";
+				INFOPLIST_KEY_CLKComplicationPrincipalClass = ClassTime_ERHS_WatchKit_Extension.ComplicationController;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.2.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "Greg-Wetterau.ClassTime.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		F38DE270272309250072A742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D7H8GNLSKX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ClassTime-ERHSTests-Info.plist";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Greg-Wetterau.ClassTime.ClassTime-ERHSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClassTime ERHS WatchKit Extension.appex/ClassTime ERHS WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		F38DE271272309250072A742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D7H8GNLSKX;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "ClassTime-ERHSTests-Info.plist";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Greg-Wetterau.ClassTime.ClassTime-ERHSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClassTime ERHS WatchKit Extension.appex/ClassTime ERHS WatchKit Extension";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		F38DE272272309250072A742 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D7H8GNLSKX;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Greg-Wetterau.ClassTime.ClassTime-ERHSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "ClassTime ERHS";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Debug;
+		};
+		F38DE273272309250072A742 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D7H8GNLSKX;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Greg-Wetterau.ClassTime.ClassTime-ERHSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "ClassTime ERHS";
+				WATCHOS_DEPLOYMENT_TARGET = 8.0;
+			};
+			name = Release;
+		};
+		F3CA2A932710D00B0088B2ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F3CA2A942710D00B0088B2ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F3CA2A962710D00B0088B2ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ClassTime/Preview Content\"";
+				DEVELOPMENT_TEAM = D7H8GNLSKX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClassTime/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ClassTime;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.4.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "Greg-Wetterau.ClassTime";
+				PRODUCT_NAME = "Class Time ERHS";
+				SWIFT_COMPILATION_MODE = singlefile;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F3CA2A972710D00B0088B2ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ClassTime/Preview Content\"";
+				DEVELOPMENT_TEAM = D7H8GNLSKX;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClassTime/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ClassTime;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UIUserInterfaceStyle = Dark;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.4.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "Greg-Wetterau.ClassTime";
+				PRODUCT_NAME = "Class Time ERHS";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F3CA2A992710D00B0088B2ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D7H8GNLSKX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Greg-Wetterau.ClassTimeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClassTime.app/ClassTime";
+			};
+			name = Debug;
+		};
+		F3CA2A9A2710D00B0088B2ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D7H8GNLSKX;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Greg-Wetterau.ClassTimeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClassTime.app/ClassTime";
+			};
+			name = Release;
+		};
+		F3CA2A9C2710D00B0088B2ED /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D7H8GNLSKX;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Greg-Wetterau.ClassTimeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClassTime;
+			};
+			name = Debug;
+		};
+		F3CA2A9D2710D00B0088B2ED /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = D7H8GNLSKX;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "Greg-Wetterau.ClassTimeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClassTime;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F38DE274272309250072A742 /* Build configuration list for PBXNativeTarget "ClassTime ERHS WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F38DE26E272309250072A742 /* Debug */,
+				F38DE26F272309250072A742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F38DE275272309250072A742 /* Build configuration list for PBXNativeTarget "ClassTime ERHS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F38DE26B272309250072A742 /* Debug */,
+				F38DE26C272309250072A742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F38DE276272309250072A742 /* Build configuration list for PBXNativeTarget "ClassTime ERHSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F38DE270272309250072A742 /* Debug */,
+				F38DE271272309250072A742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F38DE277272309250072A742 /* Build configuration list for PBXNativeTarget "ClassTime ERHSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F38DE272272309250072A742 /* Debug */,
+				F38DE273272309250072A742 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3CA2A6C2710D00A0088B2ED /* Build configuration list for PBXProject "ClassTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3CA2A932710D00B0088B2ED /* Debug */,
+				F3CA2A942710D00B0088B2ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3CA2A952710D00B0088B2ED /* Build configuration list for PBXNativeTarget "ClassTime" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3CA2A962710D00B0088B2ED /* Debug */,
+				F3CA2A972710D00B0088B2ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3CA2A982710D00B0088B2ED /* Build configuration list for PBXNativeTarget "ClassTimeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3CA2A992710D00B0088B2ED /* Debug */,
+				F3CA2A9A2710D00B0088B2ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F3CA2A9B2710D00B0088B2ED /* Build configuration list for PBXNativeTarget "ClassTimeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F3CA2A9C2710D00B0088B2ED /* Debug */,
+				F3CA2A9D2710D00B0088B2ED /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F3CA2A692710D00A0088B2ED /* Project object */;
+}
