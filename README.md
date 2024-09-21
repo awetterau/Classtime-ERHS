@@ -19,7 +19,7 @@ ClassTime is an iOS app designed to help students keep track of their school sch
   <tr>
     <td><img src="https://github.com/awetterau/Classtime-ERHS/blob/main/ClassTime/Assets.xcassets/HomeView.jpg" alt="Home Screen" /></td>
     <td><img src="https://github.com/awetterau/Classtime-ERHS/blob/main/ClassTime/Assets.xcassets/EventsView.jpg" alt="Events View" /></td>
-    <td><img src="https://github.com/awetterau/Classtime-ERHS/blob/main/ClassTime/Assets.xcassets/SettingsView.PNG" alt="Settings" /></td>
+    <td><img src="https://github.com/awetterau/Classtime-ERHS/blob/main/ClassTime/Assets.xcassets/SettingsView.jpg" alt="Settings" /></td>
   </tr>
 </table>
 
